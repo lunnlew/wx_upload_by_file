@@ -9,7 +9,7 @@
 var UPLOAD_URL = './index.php?i=1&j=1&c=utility&a=upload&do=upload&type=image';
 var u1 = new UploadPic();
     u1.init({
-        selector: '#image_1',
+        selector: '#image_2',
         callback: function(base64,input,u) {
             $.ajax({
                 url: UPLOAD_URL,
